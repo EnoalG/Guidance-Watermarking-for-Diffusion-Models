@@ -1,0 +1,13 @@
+transforms: 
+  - contrast:
+     factor : 2.0
+  - brighness:
+     bias : 0.2
+  - center_crop:
+     factor : 0.5 
+  - jpeg:
+     quality_factor : 50
+     compressor : kornia 
+  - jpeg:
+     quality_factor : 80
+     compressor : kornia 

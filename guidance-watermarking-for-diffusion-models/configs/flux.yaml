@@ -1,0 +1,20 @@
+model: black-forest-labs/FLUX.1-dev
+
+diffusion_params:   
+   batch_size : 24
+   num_inference_steps : 25
+   im_size : 256
+   seed: 43
+
+dataset: 
+   type: PROMPT
+   name: demo_prompts
+   path: /path/to/guidance-watermarking-for-diffusion-models/dataset.jsonl
+
+
+dataset_ref:
+  name: demo_prompts
+  path: /path/to/results/guidance_wm/datasets/stable_diffusion_prompts/
+  type: IMAGE
+
+nsamples : 300

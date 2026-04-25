@@ -1,0 +1,22 @@
+model: Efficient-Large-Model/Sana_600M_512px_diffusers
+
+
+diffusion_params:   
+   batch_size : 48
+   num_inference_steps : 25
+   guidance_scale: 4.5
+   im_size : 512
+   seed: 43
+
+dataset: 
+   type: PROMPT
+   name: demo_prompts
+   path: /path/to/guidance-watermarking-for-diffusion-models/dataset.jsonl
+
+
+dataset_ref:
+  name: demo_prompts
+  path: /path/to/results/guidance_wm/datasets/stable_diffusion_prompts/
+  type: IMAGE
+  
+nsamples: 300

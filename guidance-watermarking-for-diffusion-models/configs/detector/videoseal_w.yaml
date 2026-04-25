@@ -1,0 +1,6 @@
+detector:
+   name : videoseal
+   im_size: 256
+   M: 256
+   key_type: bool
+   white: true

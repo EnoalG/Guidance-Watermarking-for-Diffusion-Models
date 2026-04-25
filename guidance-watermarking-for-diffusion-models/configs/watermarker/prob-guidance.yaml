@@ -1,0 +1,6 @@
+watermarker : 
+   name: prob-guidance
+   gradient_aggregator_type: pcgrad
+   loss_type: cossim
+   loss_threshold: 4
+   wm_scale: 1
