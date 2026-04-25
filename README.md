@@ -18,7 +18,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 pip install --editable .
 ```
 
-3. Downloads VideoSeal detector from: https://github.com/facebookresearch/videoseal
+3. Downloads VideoSeal detector (.pth checkpoint) from: https://github.com/facebookresearch/videoseal
 
 Add models/ and whitener/ folders to: path/to/guidance_watermarking/guidance-watermarking-for-diffusion-models/detector/
 
