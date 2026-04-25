@@ -18,7 +18,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 pip install --editable .
 ```
 
-3. Downloads whitened VideoSeal detector from: https://anonymous.4open.science/r/guidance-watermarking-6BD3/README.md
+3. Downloads VideoSeal detector from: https://github.com/facebookresearch/videoseal
 
 Add models/ and whitener/ folders to: path/to/guidance_watermarking/guidance-watermarking-for-diffusion-models/detector/
 
